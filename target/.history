@@ -1,0 +1,4 @@
+compile
+scalafmt
+test:compile
+compile

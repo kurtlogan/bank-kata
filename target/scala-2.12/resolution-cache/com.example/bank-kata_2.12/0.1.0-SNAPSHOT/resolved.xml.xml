@@ -4,7 +4,7 @@
 		module="bank-kata_2.12"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180322213620"
+		publication="20180323150448"
 	>
 		<description>
 		bank-kata
@@ -33,7 +33,6 @@
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.4" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.4" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.5" conf="test->default(compile)"/>
-		<dependency org="com.github.mpilquist" name="simulacrum_2.12" rev="0.12.0" conf="compile->default(compile)"/>
-		<dependency org="org.scalamacros" name="paradise_2.12.4" rev="2.1.0" conf="plugin->default(compile)"/>
+		<dependency org="org.scalacheck" name="scalacheck_2.12" rev="1.13.4" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>
