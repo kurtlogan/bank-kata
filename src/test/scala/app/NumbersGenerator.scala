@@ -17,8 +17,8 @@ trait NumbersGenerator {
   )
 
   val numberListGen = for {
-    n    <- Gen.chooseNum(1, 500)
-    list <- Gen.listOfN(n, singleNumberGen)
+    n    ← Gen.chooseNum(1, 500)
+    list ← Gen.listOfN(n, singleNumberGen)
   } yield {
     list
   }

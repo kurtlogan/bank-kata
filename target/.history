@@ -2,3 +2,7 @@ compile
 scalafmt
 test:compile
 compile
+test
+git add .
+reload
+git add .
