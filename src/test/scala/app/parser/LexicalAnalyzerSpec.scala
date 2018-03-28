@@ -10,7 +10,7 @@ class LexicalAnalyzerSpec extends UnitSpec with NumbersGenerator {
     "return number" when {
       "valid number is provided" in {
         forAll(singleNumberGen) { number ⇒
-          LexicalAnalyzer.analyze(asString(number)).get shouldBe List(
+          LexicalAnalyzer.analyze(asString(number)).merge shouldBe List(
             DigitalNumber(asString(number))
           )
         }
