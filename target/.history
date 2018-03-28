@@ -6,3 +6,6 @@ test
 git add .
 reload
 git add .
+git commit -m "Added digital representations of numbers"
+git push
+test
