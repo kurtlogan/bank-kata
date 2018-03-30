@@ -1,7 +1,6 @@
 package app.parser
 
 import app.{ Number, NumbersGenerator, UnitSpec }
-import org.scalatest.prop.GeneratorDrivenPropertyChecks.forAll
 
 class AccountNumberParserSpec extends UnitSpec with NumbersGenerator {
   implicit def numberToString(n: app.Number): String = app.Number.asString(n)
@@ -25,6 +24,14 @@ class AccountNumberParserSpec extends UnitSpec with NumbersGenerator {
         AccountNumberParser
           .analyze(accountNumbersAsString(list))
           .merge shouldBe list
+      }
+    }
+
+    "fail with invalid input" in {
+      forAll { s: String ⇒
+        whenever(!s.isEmpty) {
+          AccountNumberParser.analyze(s).isLeft shouldBe true
+        }
       }
     }
   }

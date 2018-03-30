@@ -1,5 +1,6 @@
 package app
 
+import org.scalatest.prop.GeneratorDrivenPropertyChecks
 import org.scalatest.{ Matchers, WordSpec }
 
-trait UnitSpec extends WordSpec with Matchers
+trait UnitSpec extends WordSpec with GeneratorDrivenPropertyChecks with Matchers

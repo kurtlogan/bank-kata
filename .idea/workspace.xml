@@ -2,33 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="292a34da-4540-4c32-afb8-6a824576d9eb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/scala/app/parser/AccountNumberParserSpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/root.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/root.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/app/Numbers.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/app/Numbers.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/app/parser/LexicalAnalyzer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/app/parser/AccountNumberParser.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/app/parser/Tokens.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/app/parser/Tokens.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/app/NumberSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/app/NumberSpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/app/NumbersGenerator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/app/NumbersGenerator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/app/parser/LexicalAnalyzerSpec.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/app/parser/ParserSpec.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/app/UnitSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/app/UnitSpec.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/app/parser/AccountNumberParserSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/app/parser/AccountNumberParserSpec.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/com.example/bank-kata$sources/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/com.example/bank-kata$sources/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/com.example/bank-kata$sources/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/com.example/bank-kata$sources/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -95,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountNumberParser.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AccountNumberParser.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/app/parser/AccountNumberParser.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+            <state relative-caret-position="1003">
+              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
               <folding>
                 <element signature="e#20#32#0" expanded="true" />
               </folding>
@@ -116,15 +92,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Parsers.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/srcs/scala-parser-combinators_2.12-1.1.0-sources.jar!/scala/util/parsing/combinator/Parsers.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="923">
-              <caret line="275" column="89" lean-forward="true" selection-start-line="275" selection-start-column="89" selection-end-line="275" selection-end-column="89" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RegexParsers.scala" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/srcs/scala-parser-combinators_2.12-1.1.0-sources.jar!/scala/util/parsing/combinator/RegexParsers.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -134,13 +101,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountNumberParserSpec.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AccountNumberParserSpec.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/app/parser/AccountNumberParserSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+            <state relative-caret-position="68">
+              <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
               <folding>
                 <element signature="e#20#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnitSpec.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/app/UnitSpec.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+              <folding>
+                <element signature="e#13#68#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,7 +150,6 @@
         <option value="$PROJECT_DIR$/src/test/scala/ParserSpec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/typeclasses/Analogue.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/app/typeclasses/Analogue.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/app/UnitSpec.scala" />
         <option value="$PROJECT_DIR$/.scalafmt.conf" />
         <option value="$PROJECT_DIR$/src/main/scala/app/typeclasses/DigitalFormat.scala" />
         <option value="$PROJECT_DIR$/project/plugins.sbt" />
@@ -190,8 +168,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/app/Numbers.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/app/NumberSpec.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/app/NumbersGenerator.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/app/parser/AccountNumberParserSpec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/app/parser/AccountNumberParser.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/app/UnitSpec.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/app/parser/AccountNumberParserSpec.scala" />
       </list>
     </option>
   </component>
@@ -703,13 +682,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/app/typeclasses/DigitalFormat.scala" />
     <entry file="file://$PROJECT_DIR$/src/test/scala/app/typeclasses/DigitalFormatSpec.scala" />
-    <entry file="file://$PROJECT_DIR$/src/test/scala/app/UnitSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/app/parser/Lexer.scala" />
     <entry file="file://$PROJECT_DIR$/project/Dependencies.scala">
       <provider selected="true" editor-type-id="text-editor">
@@ -792,22 +764,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/app/parser/AccountNumberParserSpec.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/app/parser/AccountNumberParser.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        <state relative-caret-position="1003">
+          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
           <folding>
-            <element signature="e#20#69#0" expanded="true" />
+            <element signature="e#20#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/app/parser/AccountNumberParser.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/app/UnitSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+        <state relative-caret-position="170">
+          <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
           <folding>
-            <element signature="e#20#32#0" expanded="true" />
+            <element signature="e#13#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/app/parser/AccountNumberParserSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+          <folding>
+            <element signature="e#20#69#0" expanded="true" />
           </folding>
         </state>
       </provider>
