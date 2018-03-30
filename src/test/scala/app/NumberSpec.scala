@@ -9,70 +9,70 @@ class NumberSpec extends UnitSpec {
     import Number.asString
 
     "return for Zero" in {
-      asString(Zero) shouldBe
+      asString(Zero()) shouldBe
         " _ " +
         "| |" +
         "|_|"
     }
 
     "return for One" in {
-      asString(One) shouldBe
+      asString(One()) shouldBe
         "   " +
         "  |" +
         "  |"
     }
 
     "return for Two" in {
-      asString(Two) shouldBe
+      asString(Two()) shouldBe
         " _ " +
         " _|" +
         "|_ "
     }
 
     "return for Three" in {
-      asString(Three) shouldBe
+      asString(Three()) shouldBe
         " _ " +
         " _|" +
         " _|"
     }
 
     "return for Four" in {
-      asString(Four) shouldBe
+      asString(Four()) shouldBe
         "   " +
         "|_|" +
         "  |"
     }
 
     "return for Five" in {
-      asString(Five) shouldBe
+      asString(Five()) shouldBe
         " _ " +
         "|_ " +
         " _|"
     }
 
     "return for Six" in {
-      asString(Six) shouldBe
+      asString(Six()) shouldBe
         " _ " +
         "|_ " +
         "|_|"
     }
 
     "return for Seven" in {
-      asString(Seven) shouldBe
+      asString(Seven()) shouldBe
         " _ " +
         "  |" +
         "  |"
     }
 
     "return for Eight" in {
-      asString(Eight) shouldBe
+      asString(Eight()) shouldBe
         " _ " +
         "|_|" +
         "|_|"
     }
 
     "return for Nine" in {
-      asString(Nine) shouldBe
+      asString(Nine()) shouldBe
         " _ " +
         "|_|" +
         " _|"

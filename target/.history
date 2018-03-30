@@ -10,3 +10,7 @@ git commit -m "Added digital representations of numbers"
 git push
 test
 git add .
+git commit -m "Added lexical analyzer"
+git push
+test
+git add .

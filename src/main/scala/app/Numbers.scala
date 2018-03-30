@@ -1,33 +1,38 @@
 package app
 
 sealed trait Number
-case object Zero                  extends Number
-case object One                   extends Number
-case object Two                   extends Number
-case object Three                 extends Number
-case object Four                  extends Number
-case object Five                  extends Number
-case object Six                   extends Number
-case object Seven                 extends Number
-case object Eight                 extends Number
-case object Nine                  extends Number
+
+case class Zero()                 extends Number
+case class One()                  extends Number
+case class Two()                  extends Number
+case class Three()                extends Number
+case class Four()                 extends Number
+case class Five()                 extends Number
+case class Six()                  extends Number
+case class Seven()                extends Number
+case class Eight()                extends Number
+case class Nine()                 extends Number
 case class Unknown(value: String) extends Number
 
 object Number {
 
-  def asString(number: Number) = number match {
-    case Zero       ⇒ zero
-    case One        ⇒ one
-    case Two        ⇒ two
-    case Three      ⇒ three
-    case Four       ⇒ four
-    case Five       ⇒ five
-    case Six        ⇒ six
-    case Seven      ⇒ seven
-    case Eight      ⇒ eight
-    case Nine       ⇒ nine
+  def asString(n: Number) = n match {
+    case _: Zero    ⇒ zero
+    case _: One     ⇒ one
+    case _: Two     ⇒ two
+    case _: Three   ⇒ three
+    case _: Four    ⇒ four
+    case _: Five    ⇒ five
+    case _: Six     ⇒ six
+    case _: Seven   ⇒ seven
+    case _: Eight   ⇒ eight
+    case _: Nine    ⇒ nine
     case Unknown(s) ⇒ s
   }
+
+  def matcher(n: Number, input: String): Option[Number] =
+    if (asString(n) == input) Some(n)
+    else None
 
   // format: off
 
@@ -82,4 +87,44 @@ object Number {
     " _|"
 
   // format: on
+}
+
+object Zero {
+  def unapply(input: String): Option[Number] = Number.matcher(Zero(), input)
+}
+
+object One {
+  def unapply(input: String): Option[Number] = Number.matcher(One(), input)
+}
+
+object Two {
+  def unapply(input: String): Option[Number] = Number.matcher(Two(), input)
+}
+
+object Three {
+  def unapply(input: String): Option[Number] = Number.matcher(Three(), input)
+}
+
+object Four {
+  def unapply(input: String): Option[Number] = Number.matcher(Four(), input)
+}
+
+object Five {
+  def unapply(input: String): Option[Number] = Number.matcher(Five(), input)
+}
+
+object Six {
+  def unapply(input: String): Option[Number] = Number.matcher(Six(), input)
+}
+
+object Seven {
+  def unapply(input: String): Option[Number] = Number.matcher(Seven(), input)
+}
+
+object Eight {
+  def unapply(input: String): Option[Number] = Number.matcher(Eight(), input)
+}
+
+object Nine {
+  def unapply(input: String): Option[Number] = Number.matcher(Nine(), input)
 }
