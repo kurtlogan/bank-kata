@@ -24,3 +24,7 @@ test
 git add .
 git commit -m "changed format to end each account number with 27 spaces"
 git commit -am "changed format to end each account number with 27 spaces"
+test
+git push
+test
+git commit -am "reordered code in test"
