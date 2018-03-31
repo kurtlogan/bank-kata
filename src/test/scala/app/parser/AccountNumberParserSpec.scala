@@ -8,7 +8,7 @@ class AccountNumberParserSpec extends UnitSpec with NumbersGenerator {
     "parse account number" in {
       forAll(accountNumberListGen) { list ⇒
         AccountNumberParser
-          .analyze(accountNumbersAsString(list))
+          .parse(accountNumbersAsString(list))
           .merge shouldBe list
       }
     }
@@ -16,7 +16,7 @@ class AccountNumberParserSpec extends UnitSpec with NumbersGenerator {
     "fail with invalid input" in {
       forAll { s: String ⇒
         whenever(!s.isEmpty) {
-          AccountNumberParser.analyze(s).isLeft shouldBe true
+          AccountNumberParser.parse(s).isLeft shouldBe true
         }
       }
     }

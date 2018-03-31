@@ -47,8 +47,8 @@ object AccountNumberParser extends RegexParsers {
     }
   )
 
-  def analyze(input: String): Either[String, List[AccountNumber]] = {
-    parse(tokens, input) match {
+  def parse(input: String): Either[String, List[AccountNumber]] = {
+    super.parse(tokens, input) match {
       case NoSuccess(msg, _)  ⇒ Left(msg)
       case Success(result, _) ⇒ Right(result)
     }
