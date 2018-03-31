@@ -22,3 +22,5 @@ git commit -m "added test for failing case"
 git push
 test
 git add .
+git commit -m "changed format to end each account number with 27 spaces"
+git commit -am "changed format to end each account number with 27 spaces"

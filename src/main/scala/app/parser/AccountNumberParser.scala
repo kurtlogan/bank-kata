@@ -26,7 +26,7 @@ object AccountNumberParser extends RegexParsers {
     NewLine
   }
 
-  val stop = "[\\s]{27}\\n".r ^^ { _ ⇒
+  val stop = "[\\s]{27}\\n?".r ^^ { _ ⇒
     Stop
   }
 
