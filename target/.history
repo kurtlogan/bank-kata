@@ -35,3 +35,11 @@ test
 git commit -am "moved account number model"
 test
 git add .
+git commit -m "added verify function and tests"
+git push
+test
+git push
+test
+git add .
+test
+git commit -am "return either on verify"

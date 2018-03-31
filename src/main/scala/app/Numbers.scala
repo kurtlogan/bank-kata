@@ -1,7 +1,5 @@
 package app
 
-import app.parser.Tokens
-
 sealed trait Number
 
 case class Zero()                 extends Number
@@ -30,7 +28,21 @@ case class AccountNumber(
 
 object Number {
 
-  def asString(n: Number) = n match {
+  def asFloat(n: Number): Option[Int] = n match {
+    case _: Zero    ⇒ Some(0)
+    case _: One     ⇒ Some(1)
+    case _: Two     ⇒ Some(2)
+    case _: Three   ⇒ Some(3)
+    case _: Four    ⇒ Some(4)
+    case _: Five    ⇒ Some(5)
+    case _: Six     ⇒ Some(6)
+    case _: Seven   ⇒ Some(7)
+    case _: Eight   ⇒ Some(8)
+    case _: Nine    ⇒ Some(9)
+    case _: Unknown ⇒ None
+  }
+
+  def asString(n: Number): String = n match {
     case _: Zero    ⇒ zero
     case _: One     ⇒ one
     case _: Two     ⇒ two

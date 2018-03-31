@@ -70,13 +70,21 @@ trait NumbersGenerator {
   )
 
   lazy val invalidAccountNumber: Gen[AccountNumber] = Gen.oneOf(
-    getAccountNumber("49006771?"),
-    getAccountNumber("1234?678?"),
+    getAccountNumber("490067711"),
+    getAccountNumber("123496789"),
     getAccountNumber("888888888"),
     getAccountNumber("555555555"),
     getAccountNumber("666666666"),
     getAccountNumber("999999999"),
     getAccountNumber("490067715")
+  )
+
+  lazy val illegibleAccountNumbers: Gen[AccountNumber] = Gen.oneOf(
+    getAccountNumber("?????????"),
+    getAccountNumber("111?222??"),
+    getAccountNumber("333?456??"),
+    getAccountNumber("12345678?"),
+    getAccountNumber("?12345678")
   )
 
   private def getAccountNumber(s: String): AccountNumber = {
