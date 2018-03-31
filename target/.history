@@ -33,3 +33,5 @@ git commit -am "renamed method"
 git add .
 test
 git commit -am "moved account number model"
+test
+git add .

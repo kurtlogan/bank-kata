@@ -44,4 +44,57 @@ trait NumbersGenerator {
 
   lazy val accountNumberListGen: Gen[List[AccountNumber]] =
     Gen.listOfN(500, accountNumberGen)
+
+  lazy val validAccountNumber: Gen[AccountNumber] = Gen.oneOf(
+    getAccountNumber("123456789"),
+    getAccountNumber("000000051"),
+    getAccountNumber("711111111"),
+    getAccountNumber("777777177"),
+    getAccountNumber("200800000"),
+    getAccountNumber("333393333"),
+    getAccountNumber("888886888"),
+    getAccountNumber("888888880"),
+    getAccountNumber("888888988"),
+    getAccountNumber("555655555"),
+    getAccountNumber("666566666"),
+    getAccountNumber("686666666"),
+    getAccountNumber("899999999"),
+    getAccountNumber("993999999"),
+    getAccountNumber("999959999"),
+    getAccountNumber("490067115"),
+    getAccountNumber("490067719"),
+    getAccountNumber("490867715"),
+    getAccountNumber("123456789"),
+    getAccountNumber("000000051"),
+    getAccountNumber("490867715"),
+  )
+
+  lazy val invalidAccountNumber: Gen[AccountNumber] = Gen.oneOf(
+    getAccountNumber("49006771?"),
+    getAccountNumber("1234?678?"),
+    getAccountNumber("888888888"),
+    getAccountNumber("555555555"),
+    getAccountNumber("666666666"),
+    getAccountNumber("999999999"),
+    getAccountNumber("490067715")
+  )
+
+  private def getAccountNumber(s: String): AccountNumber = {
+    val m = s.map {
+      case '0' ⇒ Zero()
+      case '1' ⇒ One()
+      case '2' ⇒ Two()
+      case '3' ⇒ Three()
+      case '4' ⇒ Four()
+      case '5' ⇒ Five()
+      case '6' ⇒ Six()
+      case '7' ⇒ Seven()
+      case '8' ⇒ Eight()
+      case '9' ⇒ Nine()
+      case '?' ⇒ Unknown("?")
+    }
+
+    assert(m.length == 9)
+    AccountNumber(m(0), m(1), m(2), m(3), m(4), m(5), m(6), m(7), m(8))
+  }
 }
