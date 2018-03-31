@@ -30,3 +30,6 @@ test
 git commit -am "reordered code in test"
 test
 git commit -am "renamed method"
+git add .
+test
+git commit -am "moved account number model"

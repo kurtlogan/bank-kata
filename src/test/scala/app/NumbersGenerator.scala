@@ -1,6 +1,5 @@
 package app
 
-import app.parser.AccountNumber
 import org.scalacheck.Gen
 
 trait NumbersGenerator {

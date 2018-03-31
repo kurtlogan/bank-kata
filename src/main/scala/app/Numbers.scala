@@ -1,5 +1,7 @@
 package app
 
+import app.parser.Tokens
+
 sealed trait Number
 
 case class Zero()                 extends Number
@@ -13,6 +15,18 @@ case class Seven()                extends Number
 case class Eight()                extends Number
 case class Nine()                 extends Number
 case class Unknown(value: String) extends Number
+
+case class AccountNumber(
+    n1: Number,
+    n2: Number,
+    n3: Number,
+    n4: Number,
+    n5: Number,
+    n6: Number,
+    n7: Number,
+    n8: Number,
+    n9: Number
+)
 
 object Number {
 
