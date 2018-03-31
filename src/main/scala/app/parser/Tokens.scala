@@ -5,6 +5,7 @@ import app.Number
 sealed trait Tokens
 case class DigitalNumber(value: String) extends Tokens
 case object NewLine                     extends Tokens
+case object Stop                        extends Tokens
 case class AccountNumber(
     n1: Number,
     n2: Number,

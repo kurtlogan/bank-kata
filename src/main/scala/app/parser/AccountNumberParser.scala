@@ -26,21 +26,23 @@ object AccountNumberParser extends RegexParsers {
     NewLine
   }
 
+  val stop = "[\\s]{27}\\n".r ^^ { _ ⇒
+    Stop
+  }
+
   val numbers: Parser[(Number, Number, Number)] =
     number ~ number ~ number ~ newline ^^ {
       case n1 ~ n2 ~ n3 ~ _ ⇒ (n1, n2, n3)
     }
 
-  val accountNumber: Parser[AccountNumber] = numbers ~ numbers ~ numbers ^^ {
-    case (n1, n2, n3) ~ ((n4, n5, n6)) ~ ((n7, n8, n9)) ⇒
+  val accountNumber
+    : Parser[AccountNumber] = numbers ~ numbers ~ numbers ~ stop ^^ {
+    case (n1, n2, n3) ~ ((n4, n5, n6)) ~ ((n7, n8, n9)) ~ _ ⇒
       AccountNumber(n1, n2, n3, n4, n5, n6, n7, n8, n9)
   }
 
-  val accountNumberWithNewLine
-    : Parser[AccountNumber] = accountNumber ~ newline ^^ { case acc ~ _ ⇒ acc }
-
   val tokens: Parser[List[AccountNumber]] = phrase(
-    rep(accountNumberWithNewLine | accountNumber) ^^ { x ⇒
+    rep(accountNumber) ^^ { x ⇒
       x
     }
   )

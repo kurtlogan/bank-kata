@@ -4,7 +4,7 @@
 		module="bank-kata$sources"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180330193932"
+		publication="20180331102344"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

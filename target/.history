@@ -18,3 +18,7 @@ git commit -m "parser a file of 500 account numbers"
 git push
 test
 git add .
+git commit -m "added test for failing case"
+git push
+test
+git add .
