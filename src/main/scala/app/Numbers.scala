@@ -28,7 +28,7 @@ case class AccountNumber(
 
 object Number {
 
-  def asFloat(n: Number): Option[Int] = n match {
+  def asInt(n: Number): Option[Int] = n match {
     case _: Zero    ⇒ Some(0)
     case _: One     ⇒ Some(1)
     case _: Two     ⇒ Some(2)

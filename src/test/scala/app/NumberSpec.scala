@@ -1,54 +1,52 @@
 package app
 
-import org.scalatest.prop.GeneratorDrivenPropertyChecks.forAll
-
 class NumberSpec extends UnitSpec {
 
-  "asFloat" should {
-    import Number.asFloat
+  "asInt" should {
+    import Number.asInt
 
     "return for Zero" in {
-      asFloat(Zero()) shouldBe Some(0)
+      asInt(Zero()) shouldBe Some(0)
     }
 
     "return for One" in {
-      asFloat(One()) shouldBe Some(1)
+      asInt(One()) shouldBe Some(1)
     }
 
     "return for Two" in {
-      asFloat(Two()) shouldBe Some(2)
+      asInt(Two()) shouldBe Some(2)
     }
 
     "return for Three" in {
-      asFloat(Three()) shouldBe Some(3)
+      asInt(Three()) shouldBe Some(3)
     }
 
     "return for Four" in {
-      asFloat(Four()) shouldBe Some(4)
+      asInt(Four()) shouldBe Some(4)
     }
 
     "return for Five" in {
-      asFloat(Five()) shouldBe Some(5)
+      asInt(Five()) shouldBe Some(5)
     }
 
     "return for Six" in {
-      asFloat(Six()) shouldBe Some(6)
+      asInt(Six()) shouldBe Some(6)
     }
 
     "return for Seven" in {
-      asFloat(Seven()) shouldBe Some(7)
+      asInt(Seven()) shouldBe Some(7)
     }
 
     "return for Eight" in {
-      asFloat(Eight()) shouldBe Some(8)
+      asInt(Eight()) shouldBe Some(8)
     }
 
     "return for Nine" in {
-      asFloat(Nine()) shouldBe Some(9)
+      asInt(Nine()) shouldBe Some(9)
     }
 
     "return for Unknown" in {
-      asFloat(Unknown("")) shouldBe None
+      asInt(Unknown("")) shouldBe None
     }
   }
 

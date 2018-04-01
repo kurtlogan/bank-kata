@@ -43,3 +43,6 @@ test
 git add .
 test
 git commit -am "return either on verify"
+git push
+git diff
+git commit -am "renamed function"

@@ -4,7 +4,7 @@ import app._
 
 object AccountNumberVerification {
   implicit def numberToInt(n: Number): Float =
-    Number.asFloat(n).map(_.toFloat).getOrElse(0.5f)
+    Number.asInt(n).map(_.toFloat).getOrElse(0.5f)
 
   def verify(acc: AccountNumber): Either[Error, AccountNumber] =
     acc match {
