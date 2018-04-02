@@ -1,0 +1,4 @@
+[error] /home/kurt/Documents/github/kurtlogan/bank-kata/project/Dependencies.scala:5:3: illegal start of simple expression
+[error]   lazy val parserCombinators = "org.scala-lang.modules" %% "scala-parser-combinators" % "1.1.0"
+[error]   ^
+[error] one error found

@@ -10,6 +10,8 @@ lazy val root = (project in file(".")).settings(
     )
   ),
   name := "bank-kata",
+  scalacOptions += "-Ypartial-unification",
+  libraryDependencies += cats,
   libraryDependencies += parserCombinators,
   libraryDependencies += scalaTest % Test,
   libraryDependencies += scalaCheck % Test

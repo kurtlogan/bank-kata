@@ -24,6 +24,58 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.typelevel#cats-macros_2.12;1.1.0 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.typelevel#cats-macros_2.12;1.1.0
+[debug] 	found org.typelevel#cats-macros_2.12;1.1.0 in sbt-chain
+[debug] 	[1.1.0] org.typelevel#cats-macros_2.12;1.1.0
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: org.typelevel#cats-core_2.12;1.1.0 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: org.typelevel#cats-core_2.12;1.1.0
+[debug] 	found org.typelevel#cats-core_2.12;1.1.0 in sbt-chain
+[debug] 	[1.1.0] org.typelevel#cats-core_2.12;1.1.0
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->default(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.4
+[debug] 	found org.scala-lang#scala-reflect;2.12.4 in sbt-chain
+[debug] 	[2.12.4] org.scala-lang#scala-reflect;2.12.4
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.typelevel#cats-kernel_2.12;1.1.0 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.typelevel#cats-kernel_2.12;1.1.0
+[debug] 	found org.typelevel#cats-kernel_2.12;1.1.0 in sbt-chain
+[debug] 	[1.1.0] org.typelevel#cats-kernel_2.12;1.1.0
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->default]
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0
@@ -39,6 +91,17 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->compile]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.typelevel#machinist_2.12;0.6.2 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.typelevel#machinist_2.12;0.6.2
+[debug] 	found org.typelevel#machinist_2.12;0.6.2 in sbt-chain
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for com.example#bank-kata$sources;0.1.0-SNAPSHOT [runtime]
 [debug] == resolving dependencies for com.example#bank-kata$sources;0.1.0-SNAPSHOT [compile]
@@ -58,6 +121,42 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->default]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->default(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->default]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->runtime]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->compile]
@@ -70,6 +169,14 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->compile]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->default]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->runtime]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->compile]
@@ -86,6 +193,42 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->compile(*)]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->default]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->default(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime->default]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime->runtime]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime->compile]
@@ -98,6 +241,14 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime->compile]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for com.example#bank-kata$sources;0.1.0-SNAPSHOT [test]
 [debug] == resolving dependencies for com.example#bank-kata$sources;0.1.0-SNAPSHOT [runtime]
@@ -118,6 +269,42 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->default]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->default(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->default]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->runtime]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->compile]
@@ -130,6 +317,14 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->compile]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->default]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->runtime]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->compile]
@@ -146,6 +341,42 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->compile(*)]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->default]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->default(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime->default]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime->runtime]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime->compile]
@@ -158,6 +389,14 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime->compile]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.5 [test->default]
 [debug] sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.12;3.0.5 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.12;3.0.5
@@ -226,11 +465,27 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile(*)]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [test->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [test->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [test->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [test->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [test->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [test->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [test->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [test->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test->default]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test->default(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [test->compile]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.4 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.4
-[debug] 	found org.scala-lang#scala-reflect;2.12.4 in sbt-chain
-[debug] 	[2.12.4] org.scala-lang#scala-reflect;2.12.4
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [test->runtime(*)]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [test->compile]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [test->master(compile)]
@@ -238,6 +493,14 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [test->compile]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [test->compile(*)]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [test->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [test->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [test->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [test->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [test->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [test->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [test->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [test->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [test->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [test->default]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [test->runtime]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [test->compile]
@@ -250,6 +513,14 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [test->compile]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [test->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [test->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [test->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [test->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [test->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [test->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [test->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [test->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [test->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [test->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-sbt#test-interface;1.0 [test->compile]
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#test-interface;1.0 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
@@ -284,6 +555,42 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->default]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->default(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->default]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->runtime]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->compile]
@@ -296,6 +603,14 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->compile]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->master]
 [debug] == resolving dependencies for com.example#bank-kata$sources;0.1.0-SNAPSHOT [optional]
 [debug] == resolving dependencies for com.example#bank-kata$sources;0.1.0-SNAPSHOT [provided]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile-internal->default]
@@ -314,6 +629,42 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile-internal->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile-internal->compile(*)]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile-internal->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile-internal->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile-internal->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile-internal->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile-internal->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile-internal->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile-internal->default]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile-internal->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile-internal->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile-internal->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile-internal->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile-internal->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile-internal->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile-internal->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile-internal->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile-internal->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile-internal->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile-internal->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile-internal->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile-internal->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile-internal->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile-internal->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile-internal->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile-internal->default]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile-internal->runtime]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile-internal->compile]
@@ -326,6 +677,14 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile-internal->compile]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile-internal->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile-internal->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile-internal->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile-internal->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile-internal->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile-internal->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile-internal->master]
 [debug] resolving dependencies for configuration 'runtime-internal'
 [debug] == resolving dependencies for com.example#bank-kata$sources;0.1.0-SNAPSHOT [runtime-internal]
 [debug] == resolving dependencies for com.example#bank-kata$sources;0.1.0-SNAPSHOT [runtime]
@@ -346,6 +705,42 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->default]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->default(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->default]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->runtime]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->compile]
@@ -358,6 +753,14 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->compile]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->default]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->runtime]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->compile]
@@ -374,6 +777,42 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->compile(*)]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->default]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->default(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime->default]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime->runtime]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime->compile]
@@ -386,6 +825,14 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime->compile]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->master]
 [debug] == resolving dependencies for com.example#bank-kata$sources;0.1.0-SNAPSHOT [optional]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime-internal->default]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime-internal->runtime]
@@ -403,6 +850,42 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime-internal->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime-internal->compile(*)]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime-internal->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime-internal->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime-internal->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime-internal->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime-internal->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime-internal->default]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime-internal->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime-internal->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime-internal->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime-internal->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime-internal->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime-internal->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime-internal->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime-internal->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime-internal->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime-internal->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime-internal->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime-internal->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime-internal->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime-internal->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime-internal->default]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime-internal->runtime]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime-internal->compile]
@@ -415,6 +898,14 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime-internal->compile]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime-internal->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime-internal->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime-internal->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime-internal->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime-internal->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime-internal->master]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for com.example#bank-kata$sources;0.1.0-SNAPSHOT [test-internal]
 [debug] == resolving dependencies for com.example#bank-kata$sources;0.1.0-SNAPSHOT [test]
@@ -436,6 +927,42 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->default]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->default(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [compile->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->default]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->runtime]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->compile]
@@ -448,6 +975,14 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->compile]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [compile->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [compile->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->default]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->runtime]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->compile]
@@ -464,6 +999,42 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->compile(*)]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-library;2.12.4 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->default]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->default(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [runtime->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime->default]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime->runtime]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime->compile]
@@ -476,6 +1047,14 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime->compile]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [runtime->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [runtime->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.5 [test->default]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.5 [test->runtime]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.5 [test->compile]
@@ -532,6 +1111,26 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile(*)]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [test->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [test->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [test->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [test->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [test->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [test->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [test->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [test->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test->default]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test->default(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [test->compile]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [test->runtime(*)]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [test->compile]
@@ -540,6 +1139,14 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [test->compile]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [test->compile(*)]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [test->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [test->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [test->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [test->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [test->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [test->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [test->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [test->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [test->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [test->default]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [test->runtime]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [test->compile]
@@ -552,6 +1159,14 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [test->compile]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [test->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [test->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [test->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [test->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [test->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [test->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [test->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [test->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [test->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [test->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-sbt#test-interface;1.0 [test->compile]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-sbt#test-interface;1.0 [test->runtime(*)]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-sbt#test-interface;1.0 [test->compile]
@@ -618,6 +1233,26 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile(*)]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [test-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [test-internal->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [test-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [test-internal->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [test-internal->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [test-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [test-internal->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-macros_2.12;1.1.0 [test-internal->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test-internal->default]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test-internal->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test-internal->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test-internal->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test-internal->default(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test-internal->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test-internal->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-core_2.12;1.1.0 [test-internal->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [test-internal->compile]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [test-internal->runtime(*)]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [test-internal->compile]
@@ -626,6 +1261,14 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [test-internal->compile]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [test-internal->compile(*)]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.12.4 [test-internal->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [test-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [test-internal->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [test-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [test-internal->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [test-internal->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [test-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [test-internal->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#cats-kernel_2.12;1.1.0 [test-internal->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [test-internal->default]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [test-internal->runtime]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [test-internal->compile]
@@ -638,6 +1281,14 @@
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [test-internal->compile]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [test-internal->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0 [test-internal->master]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [test-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [test-internal->runtime(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [test-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [test-internal->master(compile)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [test-internal->runtime]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [test-internal->compile]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [test-internal->compile(*)]
+[debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.typelevel#machinist_2.12;0.6.2 [test-internal->master]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-sbt#test-interface;1.0 [test-internal->compile]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-sbt#test-interface;1.0 [test-internal->runtime(*)]
 [debug] == resolving dependencies com.example#bank-kata$sources;0.1.0-SNAPSHOT->org.scala-sbt#test-interface;1.0 [test-internal->compile]
@@ -705,122 +1356,30 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
-[debug] no default ivy user dir defined: set to /home/kurt/.ivy2
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0!scala-parser-combinators_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scalacheck#scalacheck_2.12;1.13.4!scalacheck_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#machinist_2.12;0.6.2!machinist_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src)
+[debug] no default ivy user dir defined: set to /home/kurt/.ivy2
+[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] 		tried /home/kurt/.ivy2/local/org.typelevel/cats-kernel_2.12/1.1.0/srcs/cats-kernel_2.12-sources.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0!scala-parser-combinators_2.12.jar(src)
+[debug] no default cache defined: set to /home/kurt/.ivy2/cache
+[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.1.0/cats-kernel_2.12-1.1.0-sources.jar
+[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] 		tried /home/kurt/.ivy2/local/org.typelevel/cats-macros_2.12/1.1.0/srcs/cats-macros_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.1.0/cats-macros_2.12-1.1.0-sources.jar
+[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
+[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar(src)
 [debug] no default ivy user dir defined: set to /home/kurt/.ivy2
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src)
-[debug] no default ivy user dir defined: set to /home/kurt/.ivy2
-[debug] no default ivy user dir defined: set to /home/kurt/.ivy2
-[debug] no default ivy user dir defined: set to /home/kurt/.ivy2
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src)
-[debug] 	[NOT REQUIRED] org.scalacheck#scalacheck_2.12;1.13.4!scalacheck_2.12.jar(src)
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(src)
-[debug] no default ivy user dir defined: set to /home/kurt/.ivy2
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default ivy user dir defined: set to /home/kurt/.ivy2
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default ivy user dir defined: set to /home/kurt/.ivy2
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default ivy user dir defined: set to /home/kurt/.ivy2
-[debug] no default cache defined: set to /home/kurt/.ivy2/cache
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default ivy user dir defined: set to /home/kurt/.ivy2
-[debug] no default cache defined: set to /home/kurt/.ivy2/cache
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/kurt/.ivy2/cache
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] no default cache defined: set to /home/kurt/.ivy2/cache
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /home/kurt/.ivy2/cache
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] no default cache defined: set to /home/kurt/.ivy2/cache
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/kurt/.ivy2/cache
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /home/kurt/.ivy2/cache
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (91ms)
-[debug] 	default cache: /home/kurt/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] no default cache defined: set to /home/kurt/.ivy2/cache
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] settings loaded (99ms)
-[debug] 	default cache: /home/kurt/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (107ms)
-[debug] 	default cache: /home/kurt/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] settings loaded (63ms)
-[debug] 	default cache: /home/kurt/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	local [file]
 [debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] settings loaded (86ms)
-[debug] 	default cache: /home/kurt/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (128ms)
+[debug] settings loaded (9ms)
 [debug] 	default cache: /home/kurt/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -834,7 +1393,9 @@
 [debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (82ms)
+[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.1.0/cats-kernel_2.12-1.1.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.1.0/cats-kernel_2.12-1.1.0-sources.jar
+[debug] settings loaded (20ms)
 [debug] 	default cache: /home/kurt/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -843,38 +1404,22 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (107ms)
-[debug] 	default cache: /home/kurt/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (123ms)
-[debug] 	default cache: /home/kurt/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/kurt/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (96ms)
-[debug] 	default cache: /home/kurt/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] :: resolution report :: resolve 450ms :: artifacts dl 168ms
+[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.1.0/cats-macros_2.12-1.1.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.1.0/cats-macros_2.12-1.1.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.1.0/cats-macros_2.12-1.1.0-sources.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.1.0/cats-kernel_2.12-1.1.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.1.0/cats-macros_2.12-1.1.0-sources.jar
+[info] 	[SUCCESSFUL ] org.typelevel#cats-macros_2.12;1.1.0!cats-macros_2.12.jar(src) (102ms)
+[debug] 		tried /home/kurt/.ivy2/local/org.typelevel/cats-core_2.12/1.1.0/srcs/cats-core_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.1.0/cats-core_2.12-1.1.0-sources.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.1.0/cats-kernel_2.12-1.1.0-sources.jar
+[info] 	[SUCCESSFUL ] org.typelevel#cats-kernel_2.12;1.1.0!cats-kernel_2.12.jar(src) (111ms)
+[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.1.0/cats-core_2.12-1.1.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.1.0/cats-core_2.12-1.1.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.1.0/cats-core_2.12-1.1.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.1.0/cats-core_2.12-1.1.0-sources.jar
+[info] 	[SUCCESSFUL ] org.typelevel#cats-core_2.12;1.1.0!cats-core_2.12.jar(src) (190ms)
+[debug] :: resolution report :: resolve 108ms :: artifacts dl 373ms
 [debug] 	report for com.example#bank-kata$sources;0.1.0-SNAPSHOT compile produced in /home/kurt/Documents/github/kurtlogan/bank-kata/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-compile.xml
 [debug] 	report for com.example#bank-kata$sources;0.1.0-SNAPSHOT runtime produced in /home/kurt/Documents/github/kurtlogan/bank-kata/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-runtime.xml
 [debug] 	report for com.example#bank-kata$sources;0.1.0-SNAPSHOT test produced in /home/kurt/Documents/github/kurtlogan/bank-kata/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-test.xml
@@ -886,4 +1431,4 @@
 [debug] 	report for com.example#bank-kata$sources;0.1.0-SNAPSHOT plugin produced in /home/kurt/Documents/github/kurtlogan/bank-kata/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-plugin.xml
 [debug] 	report for com.example#bank-kata$sources;0.1.0-SNAPSHOT pom produced in /home/kurt/Documents/github/kurtlogan/bank-kata/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-pom.xml
 [debug] 	report for com.example#bank-kata$sources;0.1.0-SNAPSHOT scala-tool produced in /home/kurt/Documents/github/kurtlogan/bank-kata/target/scala-2.12/resolution-cache/reports/com.example-bank-kata$sources-scala-tool.xml
-[debug] 	resolve done (450ms resolve - 168ms download)
+[debug] 	resolve done (108ms resolve - 373ms download)

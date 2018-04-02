@@ -15,13 +15,13 @@ class AccountNumberVerificationSpec extends UnitSpec with NumbersGenerator {
     "fail" when {
       "account number is invalid" in {
         forAll(invalidAccountNumber) { n ⇒
-          AccountNumberVerification.verify(n).merge shouldBe ChecksumError
+          AccountNumberVerification.verify(n).merge shouldBe ChecksumError(n)
         }
       }
 
       "account number is illegible" in {
         forAll(illegibleAccountNumbers) { n ⇒
-          AccountNumberVerification.verify(n).merge shouldBe IllegibleError
+          AccountNumberVerification.verify(n).merge shouldBe IllegibleError(n)
         }
       }
     }
