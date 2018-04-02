@@ -3,8 +3,8 @@ package app.verification
 import app._
 
 object AccountNumberVerification {
-  implicit def numberToFloat(n: Number): Float =
-    Number.asInt(n).map(_.toFloat).getOrElse(0.05f)
+  private implicit def numberToFloat(n: Number): Float =
+    Number.asInt(n).map(_.toFloat).getOrElse(0.01f)
 
   def verify(acc: AccountNumber): Either[Error, AccountNumber] =
     AccountNumber.asList(acc).reduceLeft[Number] {
