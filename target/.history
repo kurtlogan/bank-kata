@@ -58,3 +58,6 @@ git commit -am "added print functionality"
 git push
 git add .
 git commit -am "Refactored code"
+git push
+test
+git commit -am "Fixed reduce functions"

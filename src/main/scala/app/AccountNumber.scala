@@ -32,8 +32,10 @@ object AccountNumber {
       acc.toList.foldLeft(empty)(f)
     def foldRight[A](empty: A)(f: (Number, A) ⇒ A): A =
       acc.toList.foldRight(empty)(f)
-    def reduceLeft[A](f: (A, Number) ⇒ A): A  = acc.toList.reduceLeft(f)
-    def reduceRight[A](f: (Number, A) ⇒ A): A = acc.toList.reduceRight(f)
+    def reduceLeft[A >: Number](f: (A, Number) ⇒ A): A =
+      acc.toList.reduceLeft[A](f)
+    def reduceRight[A >: Number](f: (Number, A) ⇒ A): A =
+      acc.toList.reduceRight[A](f)
   }
 
 }
