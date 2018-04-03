@@ -16,8 +16,8 @@ object AccountNumberPrinter {
     }
 
   private def accountNumberAsString(acc: AccountNumber): String =
-    AccountNumber.asList(acc).foldLeft("")(_ + numberAsString(_))
+    acc.foldLeft("")(_ + numberAsString(_))
 
   private def numberAsString(n: Number): String =
-    Number.asInt(n).map(_.toString).getOrElse("?")
+    n.toMaybeInt.map(_.toString).getOrElse("?")
 }

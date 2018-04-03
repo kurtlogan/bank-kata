@@ -4,10 +4,10 @@ import app._
 
 object AccountNumberVerification {
   private implicit def numberToFloat(n: Number): Float =
-    Number.asInt(n).map(_.toFloat).getOrElse(0.01f)
+    n.toMaybeInt.map(_.toFloat).getOrElse(0.01f)
 
   def verify(acc: AccountNumber): Either[Error, AccountNumber] =
-    AccountNumber.asList(acc).reduceLeft[Number] {
+    acc.toList.reduceLeft[Number] {
       case (_, n @ Unknown(_)) ⇒ n
       case (acc, _)            ⇒ acc
     } match {
@@ -18,7 +18,7 @@ object AccountNumberVerification {
 
   private def checksum(acc: AccountNumber): Boolean =
     checksum(
-      AccountNumber.asList(acc).reverse.zipWithIndex.foldLeft(0f) {
+      acc.toList.reverse.zipWithIndex.foldLeft(0f) {
         case (a, (v, i)) ⇒ a + v * (i + 1)
       }
     )

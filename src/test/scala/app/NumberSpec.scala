@@ -3,123 +3,121 @@ package app
 class NumberSpec extends UnitSpec {
 
   "asInt" should {
-    import Number.asInt
 
     "return for Zero" in {
-      asInt(Zero()) shouldBe Some(0)
+      Zero().toMaybeInt shouldBe Some(0)
     }
 
     "return for One" in {
-      asInt(One()) shouldBe Some(1)
+      One().toMaybeInt shouldBe Some(1)
     }
 
     "return for Two" in {
-      asInt(Two()) shouldBe Some(2)
+      Two().toMaybeInt shouldBe Some(2)
     }
 
     "return for Three" in {
-      asInt(Three()) shouldBe Some(3)
+      Three().toMaybeInt shouldBe Some(3)
     }
 
     "return for Four" in {
-      asInt(Four()) shouldBe Some(4)
+      Four().toMaybeInt shouldBe Some(4)
     }
 
     "return for Five" in {
-      asInt(Five()) shouldBe Some(5)
+      Five().toMaybeInt shouldBe Some(5)
     }
 
     "return for Six" in {
-      asInt(Six()) shouldBe Some(6)
+      Six().toMaybeInt shouldBe Some(6)
     }
 
     "return for Seven" in {
-      asInt(Seven()) shouldBe Some(7)
+      Seven().toMaybeInt shouldBe Some(7)
     }
 
     "return for Eight" in {
-      asInt(Eight()) shouldBe Some(8)
+      Eight().toMaybeInt shouldBe Some(8)
     }
 
     "return for Nine" in {
-      asInt(Nine()) shouldBe Some(9)
+      Nine().toMaybeInt shouldBe Some(9)
     }
 
     "return for Unknown" in {
-      asInt(Unknown("")) shouldBe None
+      Unknown("").toMaybeInt shouldBe None
     }
   }
 
   // format: off
 
   "asString" should {
-    import Number.asString
 
     "return for Zero" in {
-      asString(Zero()) shouldBe
+      Zero().toDigitalString shouldBe
         " _ " +
         "| |" +
         "|_|"
     }
 
     "return for One" in {
-      asString(One()) shouldBe
+      One().toDigitalString shouldBe
         "   " +
         "  |" +
         "  |"
     }
 
     "return for Two" in {
-      asString(Two()) shouldBe
+      Two().toDigitalString shouldBe
         " _ " +
         " _|" +
         "|_ "
     }
 
     "return for Three" in {
-      asString(Three()) shouldBe
+      Three().toDigitalString shouldBe
         " _ " +
         " _|" +
         " _|"
     }
 
     "return for Four" in {
-      asString(Four()) shouldBe
+      Four().toDigitalString shouldBe
         "   " +
         "|_|" +
         "  |"
     }
 
     "return for Five" in {
-      asString(Five()) shouldBe
+      Five().toDigitalString shouldBe
         " _ " +
         "|_ " +
         " _|"
     }
 
     "return for Six" in {
-      asString(Six()) shouldBe
+      Six().toDigitalString shouldBe
         " _ " +
         "|_ " +
         "|_|"
     }
 
     "return for Seven" in {
-      asString(Seven()) shouldBe
+      Seven().toDigitalString shouldBe
         " _ " +
         "  |" +
         "  |"
     }
 
     "return for Eight" in {
-      asString(Eight()) shouldBe
+      Eight().toDigitalString shouldBe
         " _ " +
         "|_|" +
         "|_|"
     }
 
     "return for Nine" in {
-      asString(Nine()) shouldBe
+      Nine().toDigitalString shouldBe
         " _ " +
         "|_|" +
         " _|"
@@ -127,7 +125,7 @@ class NumberSpec extends UnitSpec {
 
     "return for Unknown" in {
       forAll { (s: String) ⇒
-        asString(Unknown(s)) shouldBe s
+        Unknown(s).toDigitalString shouldBe s
       }
     }
   }

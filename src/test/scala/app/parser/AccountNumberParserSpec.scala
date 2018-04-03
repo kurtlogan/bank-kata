@@ -31,8 +31,8 @@ class AccountNumberParserSpec extends UnitSpec with NumbersGenerator {
     }
 
   private def accountNumberAsString(a: AccountNumber): String =
-    s"${Number.asString(a.n1)}${Number.asString(a.n2)}${Number.asString(a.n3)}\n" +
-      s"${Number.asString(a.n4)}${Number.asString(a.n5)}${Number.asString(a.n6)}\n" +
-      s"${Number.asString(a.n7)}${Number.asString(a.n8)}${Number.asString(a.n9)}\n" +
+    s"${a.n1.toDigitalString}${a.n2.toDigitalString}${a.n3.toDigitalString}\n" +
+      s"${a.n4.toDigitalString}${a.n5.toDigitalString}${a.n6.toDigitalString}\n" +
+      s"${a.n7.toDigitalString}${a.n8.toDigitalString}${a.n9.toDigitalString}\n" +
       (" " * 27)
 }

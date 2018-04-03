@@ -13,6 +13,27 @@ case class AccountNumber(
 )
 
 object AccountNumber {
-  def asList(acc: AccountNumber): List[Number] =
-    List(acc.n1, acc.n2, acc.n3, acc.n4, acc.n5, acc.n6, acc.n7, acc.n8, acc.n9)
+
+  implicit class AccountNumberOps(val acc: AccountNumber) extends AnyVal {
+    def toList: List[Number] =
+      List(
+        acc.n1,
+        acc.n2,
+        acc.n3,
+        acc.n4,
+        acc.n5,
+        acc.n6,
+        acc.n7,
+        acc.n8,
+        acc.n9
+      )
+
+    def foldLeft[A](empty: A)(f: (A, Number) ⇒ A): A =
+      acc.toList.foldLeft(empty)(f)
+    def foldRight[A](empty: A)(f: (Number, A) ⇒ A): A =
+      acc.toList.foldRight(empty)(f)
+    def reduceLeft[A](f: (A, Number) ⇒ A): A  = acc.toList.reduceLeft(f)
+    def reduceRight[A](f: (Number, A) ⇒ A): A = acc.toList.reduceRight(f)
+  }
+
 }
