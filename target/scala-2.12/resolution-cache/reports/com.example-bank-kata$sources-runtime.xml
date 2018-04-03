@@ -7,7 +7,7 @@
 		revision="0.1.0-SNAPSHOT"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20180401133904"/>
+		date="20180403092802"/>
 	<dependencies>
 		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12">
 			<revision name="1.1.0" status="release" pubdate="20180201211040" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
@@ -39,7 +39,7 @@
 				<metadata-artifact status="no" details="" size="3339" time="0" location="/home/kurt/.ivy2/cache/org.typelevel/cats-core_2.12/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.1.0/cats-core_2.12-1.1.0.pom"/>
 				<caller organisation="com.example" name="bank-kata$sources" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="http://typelevel.org/cats/api/"/>
 				<artifacts>
-					<artifact name="cats-core_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="209142" time="190" location="/home/kurt/.ivy2/cache/org.typelevel/cats-core_2.12/srcs/cats-core_2.12-1.1.0-sources.jar">
+					<artifact name="cats-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="209142" time="0" location="/home/kurt/.ivy2/cache/org.typelevel/cats-core_2.12/srcs/cats-core_2.12-1.1.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.1.0/cats-core_2.12-1.1.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -51,7 +51,7 @@
 				<metadata-artifact status="no" details="" size="2777" time="0" location="/home/kurt/.ivy2/cache/org.typelevel/cats-kernel_2.12/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.1.0/cats-kernel_2.12-1.1.0.pom"/>
 				<caller organisation="com.example" name="bank-kata$sources" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="http://typelevel.org/cats/api/"/>
 				<artifacts>
-					<artifact name="cats-kernel_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="43873" time="111" location="/home/kurt/.ivy2/cache/org.typelevel/cats-kernel_2.12/srcs/cats-kernel_2.12-1.1.0-sources.jar">
+					<artifact name="cats-kernel_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="43873" time="0" location="/home/kurt/.ivy2/cache/org.typelevel/cats-kernel_2.12/srcs/cats-kernel_2.12-1.1.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.1.0/cats-kernel_2.12-1.1.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -63,7 +63,7 @@
 				<metadata-artifact status="no" details="" size="2923" time="0" location="/home/kurt/.ivy2/cache/org.typelevel/cats-macros_2.12/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.1.0/cats-macros_2.12-1.1.0.pom"/>
 				<caller organisation="com.example" name="bank-kata$sources" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="http://typelevel.org/cats/api/"/>
 				<artifacts>
-					<artifact name="cats-macros_2.12" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1154" time="102" location="/home/kurt/.ivy2/cache/org.typelevel/cats-macros_2.12/srcs/cats-macros_2.12-1.1.0-sources.jar">
+					<artifact name="cats-macros_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1154" time="0" location="/home/kurt/.ivy2/cache/org.typelevel/cats-macros_2.12/srcs/cats-macros_2.12-1.1.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.1.0/cats-macros_2.12-1.1.0-sources.jar"/>
 					</artifact>
 				</artifacts>

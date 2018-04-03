@@ -49,3 +49,9 @@ git commit -am "renamed function"
 compile
 test
 git commit -am "added account number to errors"
+git diff
+git push
+test
+git add .
+test
+git commit -am "added print functionality"

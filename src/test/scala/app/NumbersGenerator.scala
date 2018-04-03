@@ -69,6 +69,9 @@ trait NumbersGenerator {
     getAccountNumber("490867715"),
   )
 
+  lazy val validAccountNumberListGen: Gen[List[AccountNumber]] =
+    Gen.listOfN(500, validAccountNumber)
+
   lazy val invalidAccountNumber: Gen[AccountNumber] = Gen.oneOf(
     getAccountNumber("490067711"),
     getAccountNumber("123496789"),
