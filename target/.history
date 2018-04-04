@@ -61,3 +61,7 @@ git commit -am "Refactored code"
 git push
 test
 git commit -am "Fixed reduce functions"
+test
+git add .
+git commit -am "refactored code'
+git commit -am "refactored code"

@@ -7,7 +7,7 @@ object AccountNumberVerification {
     n.toMaybeInt.map(_.toFloat).getOrElse(0.01f)
 
   def verify(acc: AccountNumber): Either[Error, AccountNumber] =
-    acc.toList.reduceLeft[Number] {
+    acc.reduceLeft[Number] {
       case (_, n @ Unknown(_)) ⇒ n
       case (acc, _)            ⇒ acc
     } match {

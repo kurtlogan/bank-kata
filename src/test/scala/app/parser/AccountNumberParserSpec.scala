@@ -1,6 +1,6 @@
 package app.parser
 
-import app.{ AccountNumber, Number, NumbersGenerator, UnitSpec }
+import app.{ AccountNumber, NumbersGenerator, UnitSpec }
 
 class AccountNumberParserSpec extends UnitSpec with NumbersGenerator {
 
