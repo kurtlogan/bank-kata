@@ -46,16 +46,17 @@ object Number {
     }
 
     def alternatives: List[Number] = value match {
-      case _: Zero  ⇒ List(Eight())
-      case _: One   ⇒ List(Seven())
-      case _: Two   ⇒ List()
-      case _: Three ⇒ List(Nine())
-      case _: Four  ⇒ List()
-      case _: Five  ⇒ List(Six(), Nine())
-      case _: Six   ⇒ List(Five(), Eight())
-      case _: Seven ⇒ List(One())
-      case _: Eight ⇒ List(Zero(), Six(), Nine())
-      case _: Nine  ⇒ List(Three(), Five(), Eight())
+      case _: Zero        ⇒ List(Eight())
+      case _: One         ⇒ List(Seven())
+      case _: Two         ⇒ List()
+      case _: Three       ⇒ List(Nine())
+      case _: Four        ⇒ List()
+      case _: Five        ⇒ List(Six(), Nine())
+      case _: Six         ⇒ List(Five(), Eight())
+      case _: Seven       ⇒ List(One())
+      case _: Eight       ⇒ List(Zero(), Six(), Nine())
+      case _: Nine        ⇒ List(Three(), Five(), Eight())
+      case n @ Unknown(_) ⇒ n.possibleNumbers
     }
   }
 
@@ -166,4 +167,28 @@ object Eight {
 object Nine {
   def unapply(input: String): Option[Number] =
     Number.genericUnapply(Nine(), input)
+}
+
+object Unknown {
+  implicit class UnknownOps(val unknown: Unknown) extends AnyVal {
+    def possibleNumbers: List[Number] =
+      for {
+        n ← List(
+          Zero(),
+          One(),
+          Two(),
+          Three(),
+          Four(),
+          Five(),
+          Six(),
+          Seven(),
+          Eight(),
+          Nine()
+        )
+        if unknown.value
+          .zip(n.toDigitalString)
+          .map(c ⇒ c._1 == c._2)
+          .count(b ⇒ !b) == 1
+      } yield n
+  }
 }

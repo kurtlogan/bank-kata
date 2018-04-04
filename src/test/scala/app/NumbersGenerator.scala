@@ -3,26 +3,26 @@ package app
 import org.scalacheck.Gen
 
 trait NumbersGenerator {
-  lazy val unknownGen: Gen[Unknown] = Gen.oneOf(
-    Unknown("|  |  |  "),
-    Unknown("  |  |  |"),
-    Unknown("_ |_ | _|")
+
+  lazy val knownNumberGen: Gen[Number] = Gen.oneOf(
+    Zero(),
+    One(),
+    Two(),
+    Three(),
+    Four(),
+    Five(),
+    Six(),
+    Seven(),
+    Eight(),
+    Nine()
   )
 
   lazy val singleNumberGen: Gen[Number] = for {
     unknown ← unknownGen
+    known   ← knownNumberGen
     result ← Gen.oneOf(
-      Zero(),
-      One(),
-      Two(),
-      Three(),
-      Four(),
-      Five(),
-      Six(),
-      Seven(),
-      Eight(),
-      Nine(),
-      unknown
+      known,
+      unknown._1
     )
   } yield {
     result
@@ -113,6 +113,93 @@ trait NumbersGenerator {
         getAccountNumbers("490067115", "490067719", "490867715")
       )
     )
+
+  // format: off
+
+  lazy val unknownGen: Gen[(Unknown, Number)] = Gen.oneOf(
+    (
+      Unknown(
+        "   " +
+        "| |" +
+        "|_|"
+      ),
+      Zero()
+    ),
+    (
+      Unknown(
+        "   " +
+        "   " +
+        "  |"
+      ),
+      One()
+    ),
+    (
+      Unknown(
+        " _ " +
+        "  |" +
+        "|_ "
+      ),
+      Two()
+    ),
+    (
+      Unknown(
+        "   " +
+        " _|" +
+        " _|"
+      ),
+      Three()
+    ),
+    (
+      Unknown(
+        "   " +
+        "|_|" +
+        "   "
+      ),
+      Four()
+    ),
+    (
+      Unknown(
+        " _ " +
+        "|  " +
+        " _|"
+      ),
+      Five()
+    ),
+    (
+      Unknown(
+        " _ " +
+        " _ " +
+        "|_|"
+      ),
+      Six()
+    ),
+    (
+      Unknown(
+        " _ " +
+        "  |" +
+        "   "
+      ),
+      Seven()
+    ),
+    (
+      Unknown(
+        "   " +
+        "|_|" +
+        "|_|"
+      ),
+      Eight()
+    ),
+    (
+      Unknown(
+        " _ " +
+        "|_|" +
+        " _ "
+      ),
+      Nine()
+    )
+  )
+
+  // format: on
 
   private def getAccountNumbers(ss: String*): List[AccountNumber] = {
     ss.map(getAccountNumber).toList

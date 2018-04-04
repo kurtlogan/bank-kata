@@ -1,6 +1,6 @@
 package app
 
-class NumberSpec extends UnitSpec {
+class NumberSpec extends UnitSpec with NumbersGenerator {
 
   "asInt" should {
 
@@ -130,5 +130,13 @@ class NumberSpec extends UnitSpec {
     }
   }
 
-  // format: on
+  // format:
+
+  "Unknown.possibleNumbers" should {
+    "return Zero" in {
+      forAll(unknownGen) { case (n, actual) ⇒
+        n.possibleNumbers shouldBe List(actual)
+      }
+    }
+  }
 }

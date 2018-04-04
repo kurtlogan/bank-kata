@@ -69,3 +69,12 @@ git push
 test
 git add .
 git commit -am "added alternatives for known numbers"
+git push
+test
+test -- -z "numbers are unknown"
+test-only app.printer.NumberConverterSpec -- -z "numbers are unknown"
+test-only app.printer.NumberConverterSpec
+test-only app.printer.NumberConverterSpec -- -z "numbers are unknown"
+test
+git add .
+git commit -am "added tests for listing all numbers"

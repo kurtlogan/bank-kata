@@ -5,9 +5,8 @@ import app._
 object NumberConverter {
   import app.verification.AccountNumberVerification._
 
-  def convert(acc: AccountNumber): List[AccountNumber] = {
+  def convert(acc: AccountNumber): List[AccountNumber] =
     alternativeAccountNumbers(acc).filter(verify(_).isRight)
-  }
 
   def alternativeAccountNumbers(acc: AccountNumber): List[AccountNumber] =
     acc match {
