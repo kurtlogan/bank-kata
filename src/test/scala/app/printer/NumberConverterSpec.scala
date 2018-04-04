@@ -7,9 +7,7 @@ class NumberConverterSpec extends UnitSpec with NumbersGenerator {
     "return a list of verified account numbers" in {
       forAll(ambiguousAccountNumbers) {
         case (n, alt) ⇒
-          NumberConverter.convert(n).sortBy(_.toString) shouldBe alt.sortBy(
-            _.toString
-          )
+          NumberConverter.convert(n) shouldBe alt
       }
     }
   }

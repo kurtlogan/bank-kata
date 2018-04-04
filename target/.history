@@ -78,3 +78,6 @@ test-only app.printer.NumberConverterSpec -- -z "numbers are unknown"
 test
 git add .
 git commit -am "added tests for listing all numbers"
+test
+git add .
+git commit -am "print other values as guesses when they are available"

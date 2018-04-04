@@ -73,13 +73,9 @@ trait NumbersGenerator {
     Gen.listOfN(500, validAccountNumber)
 
   lazy val invalidAccountNumber: Gen[AccountNumber] = Gen.oneOf(
-    getAccountNumber("490067711"),
-    getAccountNumber("123496789"),
-    getAccountNumber("888888888"),
-    getAccountNumber("555555555"),
-    getAccountNumber("666666666"),
-    getAccountNumber("999999999"),
-    getAccountNumber("490067715")
+    getAccountNumber("222222222"),
+    getAccountNumber("444444444"),
+    getAccountNumber("722777777")
   )
 
   lazy val illegibleAccountNumbers: Gen[AccountNumber] = Gen.oneOf(
@@ -94,15 +90,15 @@ trait NumbersGenerator {
     Gen.oneOf(
       (
         getAccountNumber("888888888"),
-        getAccountNumbers("888886888", "888888880", "888888988")
+        getAccountNumbers("888886888", "888888988", "888888880")
       ),
       (
         getAccountNumber("555555555"),
-        getAccountNumbers("555655555", "559555555")
+        getAccountNumbers("559555555", "555655555")
       ),
       (
         getAccountNumber("666666666"),
-        getAccountNumbers("666566666", "686666666")
+        getAccountNumbers("686666666", "666566666")
       ),
       (
         getAccountNumber("999999999"),
@@ -110,7 +106,7 @@ trait NumbersGenerator {
       ),
       (
         getAccountNumber("490067715"),
-        getAccountNumbers("490067115", "490067719", "490867715")
+        getAccountNumbers("490867715", "490067115", "490067719")
       )
     )
 

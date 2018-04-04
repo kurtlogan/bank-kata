@@ -15,6 +15,8 @@ case class AccountNumber(
 object AccountNumber {
 
   implicit class AccountNumberOps(val acc: AccountNumber) extends AnyVal {
+    def asString: String = acc.toList.map(_.asString).mkString("")
+
     def toList: List[Number] =
       List(
         acc.n1,
