@@ -30,6 +30,12 @@ class AccountNumberPrinterSpec extends UnitSpec with NumbersGenerator {
             .mkString("\n")
         }
       }
+
+      "accounts numbers where one digit is wrong" in {
+        forAll(ambiguousAccountNumbers) { case (n, alts) =>
+          AccountNumberPrinter.print(List(n)) shouldBe s"${accountNumberAsString(n)} AMB [${alts.map(n => s"'${accountNumberAsString(n)}'").mkString(", ")}]"
+        }
+      }
     }
   }
 
