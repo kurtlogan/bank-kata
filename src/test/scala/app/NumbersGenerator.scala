@@ -90,6 +90,34 @@ trait NumbersGenerator {
     getAccountNumber("?12345678")
   )
 
+  lazy val ambiguousAccountNumbers: Gen[(AccountNumber, List[AccountNumber])] =
+    Gen.oneOf(
+      (
+        getAccountNumber("888888888"),
+        getAccountNumbers("888886888", "888888880", "888888988")
+      ),
+      (
+        getAccountNumber("555555555"),
+        getAccountNumbers("555655555", "559555555")
+      ),
+      (
+        getAccountNumber("666666666"),
+        getAccountNumbers("666566666", "686666666")
+      ),
+      (
+        getAccountNumber("999999999"),
+        getAccountNumbers("899999999", "993999999", "999959999")
+      ),
+      (
+        getAccountNumber("490067715"),
+        getAccountNumbers("490067115", "490067719", "490867715")
+      )
+    )
+
+  private def getAccountNumbers(ss: String*): List[AccountNumber] = {
+    ss.map(getAccountNumber).toList
+  }
+
   private def getAccountNumber(s: String): AccountNumber = {
     val m = s.map {
       case '0' ⇒ Zero()

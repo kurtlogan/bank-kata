@@ -16,7 +16,7 @@ object AccountNumberVerification {
       case _                  ⇒ Left(ChecksumError(acc))
     }
 
-  private def checksum(acc: AccountNumber): Boolean =
+  def checksum(acc: AccountNumber): Boolean =
     checksum(
       acc.toList.reverse.zipWithIndex.foldLeft(0f) {
         case (a, (v, i)) ⇒ a + v * (i + 1)

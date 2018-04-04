@@ -65,3 +65,7 @@ test
 git add .
 git commit -am "refactored code'
 git commit -am "refactored code"
+git push
+test
+git add .
+git commit -am "added alternatives for known numbers"

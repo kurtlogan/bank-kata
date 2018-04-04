@@ -45,6 +45,18 @@ object Number {
       case Unknown(s) ⇒ s
     }
 
+    def alternatives: List[Number] = value match {
+      case _: Zero  ⇒ List(Eight())
+      case _: One   ⇒ List(Seven())
+      case _: Two   ⇒ List()
+      case _: Three ⇒ List(Nine())
+      case _: Four  ⇒ List()
+      case _: Five  ⇒ List(Six(), Nine())
+      case _: Six   ⇒ List(Five(), Eight())
+      case _: Seven ⇒ List(One())
+      case _: Eight ⇒ List(Zero(), Six(), Nine())
+      case _: Nine  ⇒ List(Three(), Five(), Eight())
+    }
   }
 
   def genericUnapply(n: Number, input: String): Option[Number] =
