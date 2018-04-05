@@ -85,3 +85,6 @@ git push
 test
 git add .
 git commit -am "display ill for any with no convertable numbers"
+git push
+test
+git add .

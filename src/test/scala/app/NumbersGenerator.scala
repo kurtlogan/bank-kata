@@ -219,9 +219,8 @@ trait NumbersGenerator {
 
   // format: on
 
-  private def getAccountNumbers(ss: String*): List[AccountNumber] = {
+  private def getAccountNumbers(ss: String*): List[AccountNumber] =
     ss.map(getAccountNumber).toList
-  }
 
   private def getAccountNumber(s: String): AccountNumber = {
     val m = s.map {
