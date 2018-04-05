@@ -15,7 +15,8 @@ case class AccountNumber(
 object AccountNumber {
 
   implicit class AccountNumberOps(val acc: AccountNumber) extends AnyVal {
-    def asString: String = acc.toList.map(_.asString).mkString("")
+    def toPrintableString: String =
+      acc.toList.map(_.toPrintableString).mkString("")
 
     def toList: List[Number] =
       List(
@@ -42,5 +43,4 @@ object AccountNumber {
     def reduceRight[A >: Number](f: (Number, A) ⇒ A): A =
       acc.toList.reduceRight[A](f)
   }
-
 }

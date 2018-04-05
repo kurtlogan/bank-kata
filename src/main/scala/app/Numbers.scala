@@ -17,7 +17,7 @@ case class Unknown(value: String) extends Number
 object Number {
 
   implicit class NumberOps(val value: Number) extends AnyVal {
-    def asString: String = toMaybeInt.map(_.toString).getOrElse("?")
+    def toPrintableString: String = toMaybeInt.map(_.toString).getOrElse("?")
 
     def toMaybeInt: Option[Int] = value match {
       case _: Zero    ⇒ Some(0)

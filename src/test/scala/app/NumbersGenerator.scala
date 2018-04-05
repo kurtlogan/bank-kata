@@ -110,10 +110,31 @@ trait NumbersGenerator {
       )
     )
 
+  lazy val unknownGen: Gen[(Unknown, Number)] = Gen.oneOf(unknowns.values.toSeq)
+
+  lazy val offByOneNumberGen: Gen[(AccountNumber, AccountNumber)] = Gen.oneOf(
+    (getAccountNumber("111111111"), getAccountNumber("711111111")),
+    (getAccountNumber("777777777"), getAccountNumber("777777177")),
+    (getAccountNumber("200800000"), getAccountNumber("200800000")),
+    (getAccountNumber("333333333"), getAccountNumber("333393333")),
+    (
+      getAccountNumber("?23456789").copy(n1 = unknowns("one")._1),
+      getAccountNumber("123456789")
+    ),
+    (
+      getAccountNumber("0?0000051").copy(n2 = unknowns("zero")._1),
+      getAccountNumber("000000051")
+    ),
+    (
+      getAccountNumber("49086771?").copy(n9 = unknowns("five")._1),
+      getAccountNumber("490867715")
+    )
+  )
+
   // format: off
 
-  lazy val unknownGen: Gen[(Unknown, Number)] = Gen.oneOf(
-    (
+  val unknowns: Map[String, (Unknown, Number)] = Map(
+    "zero" → (
       Unknown(
         "   " +
         "| |" +
@@ -121,7 +142,7 @@ trait NumbersGenerator {
       ),
       Zero()
     ),
-    (
+    "one" → (
       Unknown(
         "   " +
         "   " +
@@ -129,15 +150,16 @@ trait NumbersGenerator {
       ),
       One()
     ),
-    (
-      Unknown(
-        " _ " +
-        "  |" +
-        "|_ "
-      ),
-      Two()
+    "two" →
+      (
+        Unknown(
+          " _ " +
+          "  |" +
+          "|_ "
+        ),
+        Two()
     ),
-    (
+    "three" → (
       Unknown(
         "   " +
         " _|" +
@@ -145,7 +167,7 @@ trait NumbersGenerator {
       ),
       Three()
     ),
-    (
+    "four" → (
       Unknown(
         "   " +
         "|_|" +
@@ -153,7 +175,7 @@ trait NumbersGenerator {
       ),
       Four()
     ),
-    (
+    "five" → (
       Unknown(
         " _ " +
         "|  " +
@@ -161,7 +183,7 @@ trait NumbersGenerator {
       ),
       Five()
     ),
-    (
+    "six" → (
       Unknown(
         " _ " +
         " _ " +
@@ -169,7 +191,7 @@ trait NumbersGenerator {
       ),
       Six()
     ),
-    (
+    "seven" → (
       Unknown(
         " _ " +
         "  |" +
@@ -177,7 +199,7 @@ trait NumbersGenerator {
       ),
       Seven()
     ),
-    (
+    "eight" → (
       Unknown(
         "   " +
         "|_|" +
@@ -185,7 +207,7 @@ trait NumbersGenerator {
       ),
       Eight()
     ),
-    (
+    "nine" → (
       Unknown(
         " _ " +
         "|_|" +
@@ -213,7 +235,7 @@ trait NumbersGenerator {
       case '7' ⇒ Seven()
       case '8' ⇒ Eight()
       case '9' ⇒ Nine()
-      case '?' ⇒ Unknown("?")
+      case '?' ⇒ Unknown("?????????")
     }
 
     assert(m.length == 9)

@@ -13,12 +13,13 @@ class NumberConverterSpec extends UnitSpec with NumbersGenerator {
   }
 
   "alternativeAccountNumbers" should {
-    val uni = Unknown("??????????")
+    val unk = Unknown("??????????")
+
     "numbers are unknown" in {
       forAll(unknownGen) {
         case (unknown, actual) ⇒
           val acc =
-            AccountNumber(unknown, uni, uni, uni, uni, uni, uni, uni, uni)
+            AccountNumber(unknown, unk, unk, unk, unk, unk, unk, unk, unk)
 
           NumberConverter.alternativeAccountNumbers(acc) shouldBe List(
             acc.copy(n1 = actual)
@@ -29,7 +30,7 @@ class NumberConverterSpec extends UnitSpec with NumbersGenerator {
     "list all possible values for first number" in {
       forAll(knownNumberGen) { n ⇒
         val acc =
-          AccountNumber(n, uni, uni, uni, uni, uni, uni, uni, uni)
+          AccountNumber(n, unk, unk, unk, unk, unk, unk, unk, unk)
 
         NumberConverter.alternativeAccountNumbers(acc) shouldBe n.alternatives
           .map(alt ⇒ acc.copy(n1 = alt))
@@ -39,7 +40,7 @@ class NumberConverterSpec extends UnitSpec with NumbersGenerator {
     "list all possible values for second number" in {
       forAll(knownNumberGen) { n ⇒
         val acc =
-          AccountNumber(uni, n, uni, uni, uni, uni, uni, uni, uni)
+          AccountNumber(unk, n, unk, unk, unk, unk, unk, unk, unk)
 
         NumberConverter.alternativeAccountNumbers(acc) shouldBe n.alternatives
           .map(alt ⇒ acc.copy(n2 = alt))
@@ -49,7 +50,7 @@ class NumberConverterSpec extends UnitSpec with NumbersGenerator {
     "list all possible values for third number" in {
       forAll(knownNumberGen) { n ⇒
         val acc =
-          AccountNumber(uni, uni, n, uni, uni, uni, uni, uni, uni)
+          AccountNumber(unk, unk, n, unk, unk, unk, unk, unk, unk)
 
         NumberConverter.alternativeAccountNumbers(acc) shouldBe n.alternatives
           .map(alt ⇒ acc.copy(n3 = alt))
@@ -59,7 +60,7 @@ class NumberConverterSpec extends UnitSpec with NumbersGenerator {
     "list all possible values for forth number" in {
       forAll(knownNumberGen) { n ⇒
         val acc =
-          AccountNumber(uni, uni, uni, n, uni, uni, uni, uni, uni)
+          AccountNumber(unk, unk, unk, n, unk, unk, unk, unk, unk)
 
         NumberConverter.alternativeAccountNumbers(acc) shouldBe n.alternatives
           .map(alt ⇒ acc.copy(n4 = alt))
@@ -69,7 +70,7 @@ class NumberConverterSpec extends UnitSpec with NumbersGenerator {
     "list all possible values for fifth number" in {
       forAll(knownNumberGen) { n ⇒
         val acc =
-          AccountNumber(uni, uni, uni, uni, n, uni, uni, uni, uni)
+          AccountNumber(unk, unk, unk, unk, n, unk, unk, unk, unk)
 
         NumberConverter.alternativeAccountNumbers(acc) shouldBe n.alternatives
           .map(alt ⇒ acc.copy(n5 = alt))
@@ -79,7 +80,7 @@ class NumberConverterSpec extends UnitSpec with NumbersGenerator {
     "list all possible values for sixth number" in {
       forAll(knownNumberGen) { n ⇒
         val acc =
-          AccountNumber(uni, uni, uni, uni, uni, n, uni, uni, uni)
+          AccountNumber(unk, unk, unk, unk, unk, n, unk, unk, unk)
 
         NumberConverter.alternativeAccountNumbers(acc) shouldBe n.alternatives
           .map(alt ⇒ acc.copy(n6 = alt))
@@ -89,7 +90,7 @@ class NumberConverterSpec extends UnitSpec with NumbersGenerator {
     "list all possible values for seventh number" in {
       forAll(knownNumberGen) { n ⇒
         val acc =
-          AccountNumber(uni, uni, uni, uni, uni, uni, n, uni, uni)
+          AccountNumber(unk, unk, unk, unk, unk, unk, n, unk, unk)
 
         NumberConverter.alternativeAccountNumbers(acc) shouldBe n.alternatives
           .map(alt ⇒ acc.copy(n7 = alt))
@@ -99,7 +100,7 @@ class NumberConverterSpec extends UnitSpec with NumbersGenerator {
     "list all possible values for eighth number" in {
       forAll(knownNumberGen) { n ⇒
         val acc =
-          AccountNumber(uni, uni, uni, uni, uni, uni, uni, n, uni)
+          AccountNumber(unk, unk, unk, unk, unk, unk, unk, n, unk)
 
         NumberConverter.alternativeAccountNumbers(acc) shouldBe n.alternatives
           .map(alt ⇒ acc.copy(n8 = alt))
@@ -109,7 +110,7 @@ class NumberConverterSpec extends UnitSpec with NumbersGenerator {
     "list all possible values for ninth number" in {
       forAll(knownNumberGen) { n ⇒
         val acc =
-          AccountNumber(uni, uni, uni, uni, uni, uni, uni, uni, n)
+          AccountNumber(unk, unk, unk, unk, unk, unk, unk, unk, n)
 
         NumberConverter.alternativeAccountNumbers(acc) shouldBe n.alternatives
           .map(alt ⇒ acc.copy(n9 = alt))
